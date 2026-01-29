@@ -1,0 +1,106 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.vista-manual {
+    background-color: azure;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.vista-academica {
+    background-color: rgba(226, 221, 221, 0.649);
+    padding: 40px;
+    min-height: 100vh;
+}
+
+
+
+form {
+    background-color: white;
+    padding: 25px;
+    max-width: 500px;
+    margin: 1px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+
+form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* contenedor de cada campo */
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+label {
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+
+input,
+select {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+button {
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 11px;
+    background-color:#1565c0 ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* mensaje de error */
+form p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background-color: white;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd; 
+}
+th {
+  background-color: rgba(226, 221, 221, 0.649);
+}
+
+
+.tarjeta {
+  border: 1px solid #ddd;
+  padding: 16px;
+  width: 300px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
